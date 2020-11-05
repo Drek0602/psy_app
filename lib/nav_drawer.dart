@@ -7,8 +7,8 @@ class NavDrawer extends StatelessWidget {
       child: ListView(
         children: <Widget>[
           UserAccountsDrawerHeader(
-            accountName: Text('Patricia González'),
-            accountEmail: Text('patriciagal93@gmail.com'),
+            accountName: Text('TestUser1'),
+            accountEmail: Text('test@gmail.com'),
             currentAccountPicture: CircleAvatar(
               backgroundColor: Theme.of(context).platform == TargetPlatform.iOS
                   ? Colors.blue
